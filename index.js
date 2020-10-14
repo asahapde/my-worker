@@ -91,11 +91,11 @@ class LinksTransformer {
     }
 
     // Change title to my name
-    if (element.tagName == "title") {
-      element.setInnerContent("Abdullah Sahapdeen", { html: true })
+    if (element.tagName == 'title') {
+      element.setInnerContent('Abdullah Sahapdeen', { html: true })
     }
 
-    if (element.tagName == "body") {
+    if (element.tagName == 'body') {
       element.setAttribute('class', 'bg-blue-400')
     }
   }
